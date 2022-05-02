@@ -9,8 +9,8 @@ const mysql = require('mysql');
 const db = mysql.createPool({
     host: 'localhost',
     user: 'root',
-    password: '1947@Pakistan',
-    database: 'crud'
+    password: '', //Write your defined Password
+    database: '' //Write your database name 
 });
 
 //Sending a response to frontend at this particular address
